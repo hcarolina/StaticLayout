@@ -1,0 +1,337 @@
+/* General setup */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.bg-img {
+  background-image: url("./assets/HHbackground.jpg");
+
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  /* position: relative; */
+}
+
+.container {
+  /* position: absolute; */
+  margin: 0px 10px 10px 10px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#wwImg {
+  height: 50px;
+  width: 66px;
+  justify-content: center;
+}
+
+.holder{
+  width: 94px;
+}
+
+nav {
+  /* position: fixed; */
+  top: 81px;
+  left: 0px;
+  width: 100%;
+  z-index: 9997;
+}
+
+nav ul {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  /* position: relative; */
+  list-style: none;
+  padding: 7px 0px 2px;
+  margin: 0px;
+  background-color: transparent;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+nav li {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  color: white;
+  font-family: 'PT Serif', serif;
+
+}
+
+/* nav li i {
+    color: white;
+} */
+
+.button {
+  border: unset;
+  background-color: unset;
+  cursor: pointer;
+  color: white;
+  /* font-family: Sofia Pro,serif; */
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  background: #6b63b5;
+  border-radius: 3px;
+  padding: 8px 20px 5px;
+  display: right;
+  /* display: inline-block; */
+  /* position:fixed; */
+  margin-right: 30px;
+  right: 0;
+  margin-top: 20px;
+ justify-content: flex-end;
+  /* margin-left: 40%; */
+}
+
+/* fanclub img */
+
+#middle {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  flex-direction: column;
+}
+.HHfan {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 136px;
+  width: 350px;
+  justify-content: center;
+}
+
+/* BODY */
+
+.middleButton {
+  background-color: #6b63b5;
+  /* font-family: Sofia Pro,serif; */
+  line-height: 1.18;
+  letter-spacing: 1.1px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 18px 31px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#middle h1,
+#middle .bodyWords {
+  color: white;
+  /* position: absolute; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#middle h1 {
+  font-size: 60px;
+  margin: 10px;
+}
+
+#middle .bodyWords {
+  width: 500px;
+  align-content: center;
+}
+
+/* BETWEEN */
+
+hr {
+  position: relative;
+  bottom: -190px;
+  left: 300px;
+  width: 700px;
+  border-width: 1px;
+  border-color: #575c5c;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 30px 100px;
+  border: 1px white;
+  background-color: transparent;
+  /* background-color: rgba(128, 128, 128, 0.807); */
+  padding: 10px 50px;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  bottom: -150px;
+  justify-content: space-around;
+}
+
+div .image3,
+.image2,
+.image1 {
+  height: 214px;
+}
+.square1 h4 {
+  color: white;
+  text-align: left;
+  position: relative;
+  top: -100px;
+
+}
+
+.square1 .square-1 {
+  color: white;
+  position: relative;
+  top: -100px;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0px 100px 20px 20px;
+  text-shadow: 2px 2px #13101086;
+}
+
+.square2 h4 {
+  color: white;
+  text-align: left;
+  position: relative;
+  top: -100px;
+}
+
+.square2 .square-2 {
+  color: white;
+  position: relative;
+  top: -100px;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0px 100px 20px 20px;
+  text-shadow: 2px 2px #13101086;
+}
+
+.square3 h4 {
+  color: white;
+  text-align: left;
+  position: relative;
+  top: -100px;
+}
+
+.square3 .square-3 {
+  color: white;
+  position: relative;
+  top: -100px;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0px 100px 20px 20px;
+  text-shadow: 2px 2px #13101086;
+}
+
+/* FOOTER */
+
+.quizSection {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.stars-img {
+  background-image: url("./assets/star-wars-backgrounds-25.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.quizImg .quiz {
+  width: 900px;
+  justify-content: flex-right;
+  z-index: -1;
+  height: 400px;
+  margin-top: 200px;
+}
+
+div .quizText {
+  height: 527px;
+  width: 307px;
+  text-align: end;
+  padding-left: 100px;
+  flex-direction: column;
+  z-index: 100;
+  margin-top: 200px;
+  position: relative;
+  left: 200px;
+}
+.quizText {
+  color: white;
+}
+
+.wordingQuiz {
+  font-size: 1rem;
+  /* width: 800px; */
+  /* text-align: right; */
+  padding-left: 0;
+}
+
+/* didn't use */
+/* header, h1{
+  color: white;
+  margin: auto;
+  text-align: center;
+  
+} */
+/* header{
+  
+  width: 94rem;
+} */
+/* 
+header h1{
+  position: fixed;
+  top: 20px;
+  left: 0px;
+  width: 100%;
+  z-index: 9997;
+} */
+
+/* #middle div{
+  width: 300px;
+  height: 100px;
+} */
+
+/* #middle img{
+  height: 350px;
+  width: 400px;
+  position: absolute;
+  right: 36.5%;
+  margin: auto;
+  padding: 0;
+  flex: auto;
+} */
+
+/* img {
+  max-width:100%;
+  max-height:100%;
+  } */
+
+/* 
+html div{
+  width:auto;
+  height:auto;
+  background:#ccc;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+} */
